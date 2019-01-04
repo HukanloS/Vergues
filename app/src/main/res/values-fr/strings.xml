@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Monster Hunter 4U : Bestiaire HD</string>
+    <string name="main_title">Bestiaire intégral</string>
+    <string name="start_button">COMMENCER</string>
+    <string name="add_button">AJOUTER UN MONSTRE</string>
+</resources>
