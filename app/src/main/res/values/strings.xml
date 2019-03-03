@@ -3,5 +3,12 @@
     <string name="main_title">Complete bestiary</string>
     <string name="start_button">START</string>
     <string name="add_button">ADD A CREATURE</string>
+    <string name="nom_verniculaire">Vernicular name</string>
+    <string name="groupe">Group</string>
+    <string name="element_s">Element(s)</string>
+    <string name="description">Description</string>
+    <string name="faiblesse_s">Weakness(es)</string>
+    <string name="rang">Rank :</string>
+    <string name="num_ro_de_l_entr_e">Entry number :</string>
 </resources>
 

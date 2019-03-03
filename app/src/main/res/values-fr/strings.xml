@@ -4,4 +4,11 @@
     <string name="main_title">Bestiaire intégral</string>
     <string name="start_button">COMMENCER</string>
     <string name="add_button">AJOUTER UN MONSTRE</string>
+    <string name="nom_verniculaire">Nom verniculaire</string>
+    <string name="groupe">Groupe</string>
+    <string name="element_s">Element(s)</string>
+    <string name="description">Description</string>
+    <string name="faiblesse_s">Faiblesse(s)</string>
+    <string name="rang">Rang :</string>
+    <string name="num_ro_de_l_entr_e">Numéro de l\'entrée :</string>
 </resources>

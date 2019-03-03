@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/monster_id_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/monster_name_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/monster_id_case"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_toStartOf="@+id/monster_id_case"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/monster_group_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monster_name_case" />
+
+        <TextView
+            android:id="@+id/monster_elements_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monster_group_case" />
+
+        <TextView
+            android:id="@+id/monster_weaknesses_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monster_elements_case" />
+
+        <TextView
+            android:id="@+id/monster_danger_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monster_weaknesses_case"/>
+
+        <TextView
+            android:id="@+id/monster_description_case"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monster_danger_case" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
